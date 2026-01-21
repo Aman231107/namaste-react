@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [
-    "react"
-  ],
+  "keywords": [],
   "author": "akm",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
 }
