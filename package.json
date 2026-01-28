@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "description": "this is namaste react by akm",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [],
   "author": "akm",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^30.2.0",
     "parcel": "^2.16.3"
-  }
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
